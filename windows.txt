@@ -1,0 +1,39 @@
+ordenes con ejecutar
+
+windows + r      //abrir ejecutar
+
+
+diskmgmt.msc    //administrador de discos
+cmd
+control printers   
+msconfig   // Abre configuracion del sistema
+ncpa.cpl   //conexiones de red
+explorer    // abre el explorador de archivos
+regedit     // Abre el Registro.
+taskmgr     //Abre el Administrador de tareas
+sysdm.cpl    //propiedades del sistema
+devmgmt.msc  //administrador de dispositivos
+netplwiz     //administrador de cuentas de usuario
+appwiz.cpl    // Agregar o quitar programas 
+printmanagement.msc   // acceder al Administrador de impresoras 
+Snipping Too // Herramineta de recorte
+mstsc     //escritorio remoto
+mdsched  //Windows Memory Diagnostic
+
+Hardware, discos y servicios
+CLEANMGR.MSC: Abre la herramienta Liberador de espacio en disco.
+DEVMGMT.MSC: Abre el Administrador de dispositivos, con información sobre tu hardware.
+DFRG.MSC: Abre el Desfragmentador de disco de Windows.
+DISKMGMT.MSC: Abre Administración de discos, para gestionar las particiones y unidades de disco.
+PERFMON.MSC: Abre el Monitor de rendimiento, útil para saber por qué tu equipo va lento.
+SERVICES.MSC: Abre Servicios. Desde ahí puedes gestionarlos, activarlos y desactivarlos.
+
+CALC: Abre la Calculadora de Windows.
+CONTROL: Abre el Panel de Control de Windows.
+CONTROL ADMINTOOLS: Abre la carpeta Herramientas administrativas.
+FSQUIRT: Abre la Transferencia de archivos por Bluetooth.
+MIGWIZ: Abre la herramienta Windows Easy Transfer, útil cuando compres un PC nuevo.
+MRT: Abre la Herramienta de eliminación de software malintencionado de Microsoft. Permite realizar tres tipos de análisis: rápido, normal o completo.
+MSINFO32: Abre Información del sistema, donde ver datos de Windows, el hardware y el resto del software.
+RSTRUI: Abre la herramienta Restaurar sistema.
+WINVER: Si no sabes qué versión de Windows tienes, este comando te lo dirá.
