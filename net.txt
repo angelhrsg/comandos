@@ -1,0 +1,25 @@
+netsh winsock reset   //restablecer Winsock
+
+
+shutdown /r /t 0     //reiniciar pc
+
+Netsh puede usar los siguientes comandos para reiniciar el adaptador de red –
+
+1) Netsh int ip reset.
+
+2) Reinicio del advfirewall de Netsh
+
+3) Netsh int ipv6 reset
+
+4) Netsh winsock reset
+
+
+netsh int ip reset
+netsh winsock catalog
+
+Restablecer la pila de red
+Tenga en cuenta que estos comandos afectan a todos sus adaptadores de red
+
+ipconfig /release
+ipconfig /flushdns
+ipconfig /renew

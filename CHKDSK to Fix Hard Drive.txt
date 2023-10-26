@@ -1,0 +1,26 @@
+How to Use CHKDSK to Fix Hard Drive Problems on Windows 10 or Windows 11
+
+chkntfs c:
+chkdsk /fc:  reparar los errores del sistema de archivos lógicos durante el análisis,
+
+chkdsk /rc:  buscar sectores defectuosos
+
+
+
+C:\>chkdsk/? Comprueba un disco y muestra un informe de estado.
+CHKDSK [volumen[[ruta]nombre de archivo]]] [/F] [/V] [/R] [/X] [/I] [/C] [/L[:tamaño]] [/B]
+volumen Especifica la letra de la unidad (seguida de dos puntos), el punto de montaje o el nombre del volumen.
+nombre de archivo FAT/FAT32 únicamente: especifica los archivos para comprobar si hay fragmentación.
+/F Corrige errores en el disco.
+/V En FAT/FAT32: muestra la ruta completa y el nombre de cada archivo en el disco. En NTFS: muestra mensajes de limpieza, si los hay.
+/R Localiza sectores defectuosos y recupera información legible (implica /F).
+/L:tamaño Sólo NTFS: cambia el tamaño del archivo de registro al número especificado de kilobytes. Si no se especifica el tamaño, muestra el tamaño actual.
+/X Fuerza el volumen a desmontarse primero si es necesario. Todos los identificadores abiertos del volumen no serían válidos (implica /F).
+/I Sólo NTFS: realiza una comprobación menos exhaustiva de las entradas del índice. /C Sólo NTFS: omite la comprobación de ciclos dentro de la estructura de carpetas.
+/B Solo NTFS: reevalúa los clústeres defectuosos en el volumen (implica /R) /scan Solo NTFS: ejecuta un análisis en línea en el volumen
+/forceofflinefix Sólo NTFS: (Debe usarse con "/scan") Omita toda reparación en línea; todos los defectos encontrados se ponen en cola para reparación fuera de línea (es decir, "chkdsk /spotfix").
+/perf Sólo NTFS: (Debe usarse con "/scan") Utiliza más recursos del sistema para completar un análisis lo más rápido posible. Esto puede tener un impacto negativo en el rendimiento de otras tareas que se ejecutan en el sistema.
+/spotfix Solo NTFS: ejecuta la corrección puntual en el volumen. /sdcleanup Solo NTFS: recopila datos de descriptores de seguridad innecesarios (implica /F).
+/offlinescanandfix Ejecuta un análisis sin conexión y repara el volumen.
+/freeorphanedchains FAT/FAT32/exFAT solamente: libera cualquier cadena de clúster huérfana en lugar de recuperar su contenido.
+/markclean FAT/FAT32/exFAT solamente: marca el volumen como limpio si no se detectó corrupción, incluso si no se especificó /F.

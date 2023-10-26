@@ -1,0 +1,39 @@
+
+1. antes de empezar con la  instalacion configuracion edge:
+
+
+modo protegido  desactivado
+
+
+COnfiguracion
+			explorador predeterminado
+					modo paginas de internet explorer
+										agregar: http://gd.local/gd/gd.php
+										
+			Sistemas y rendimiento
+					Inicio rapido: desactivado
+					
+Opciones de Internet
+				Sitios de confianza 
+						habilitar modo protegido desactivado
+Copiamos el link que nos aparece en la pantalla y lo buscamos en la barra de búsqueda. Asi se 
+llega al paso 2. https://ecogd.giron-santander.gov.co/gd
+
+
+2. Crear acceso directo.
+
+Ingresamos al explorador C:\Program Files (x86)\Microsoft\Edge\Application
+			msedge  acceso directo al escritorio
+			"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+
+
+ Agregar a sitios de confianza.
+ Opciones de Internet
+				Sitios de confianza
+				
+en navegador edge
+		Copiamos el link    "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" -nomerg   https://ecogd.giron-santander.gov.co/gd/confiemode.php
+							"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" -nomerge  http://gd.local/eco/esesangilg0
+
+Recargar en modo IE.
+Buscamos el icono que se indica. 
